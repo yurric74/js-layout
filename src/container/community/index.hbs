@@ -1,0 +1,114 @@
+{{!
+Це код container файлу для index сторінки,
+в якому міститься код, котрий буде віддаватися по шляху (PATH) - "/"
+}}
+
+<div class='main'>
+  {{!<div class='page'>
+    <header class='header'>
+      <button class='button'>
+        <img
+          width='24px'
+          height='24px'
+          src='/svg/header__back.svg'
+        />
+      </button>
+      <button class='button'>
+        <img
+          width='24px'
+          height='24px'
+          src='/img/header__avatar.png'
+        />
+      </button>
+    </header>
+
+    <h1 class='title'>Мій блог</h1>
+
+  <main class='post__list'>
+      <div class='post button'>
+        <div class='post__header'>
+          <div class='post__category-list'>
+            <span
+              class='post__category post__category--1'
+            >Важливо</span>
+            <span
+              class='post__category post__category--2'
+            >Нова</span>
+          </div>
+          <span class='post__date'>25.01</span>
+        </div>
+        <p class='post__info'>До біса планувальник, наймаємо
+          дизайнера і готуємось до презентації, як Джобс</p>
+      </div>
+      <div class='post button post__viewed'>
+        <div class='post header'>
+          <div class='post__category-list'>
+            <span
+              class='post__category post__category--1'
+            >Важлива інформація</span>
+          </div>
+          <span class='post__date'>24.01</span>
+        </div>
+        <p class='post__info'>Ми хотіли щоб у цьому чаті
+          було близько 150 людей щоб зробити якісний пак
+          самопрезентації
+        </p>
+      </div>
+    </main>}}
+</div>
+
+{{!
+    Цей код містить лише те, що буде виводитись в <body>
+    Адже наш layout/default.hbs має вже структуру HTML
+}}
+
+<div class='page'>
+  {{!<header class='header'>
+    <button class='button'>
+      <img
+        width='24px'
+        height='24px'
+        src='/svg/header__back.svg'
+      />
+    </button>
+    <button class='button'>
+      <img
+        width='24px'
+        height='24px'
+        src='/img/header__avatar.png'
+      />
+    </button>
+  </header>
+
+  <h1 class='title'>Комьюніті</h1>
+
+  <div class='list'>
+    <div class='nav-tabs'>
+      <div class='nav__item'>
+        <a href='#' class='nav-link disabled'>База знань</a>
+      </div>
+      <div class='nav__item'>
+        <a href='#' class='nav-link active'>Інформація</a>
+      </div>
+    </div>
+
+    <main class='card'>
+
+      <img src='img/card__top.png' />
+      <div class='card-body'>
+        <h2 class='card__title'>Що таке база знань?</h2>
+        <p class='post__info'>База знаний — база данных,
+          содержащая правила вывода и информацию о
+          человеческом опыте и знаниях в некоторой
+          предметной области. В самообучающихся системах
+          база знаний также содержит информацию, являющуюся
+          результатом решения предыдущих задач.
+        </p>
+      </div>
+      <button class='card__button'>
+        <p>Пеpейти до комьюніті в Телеграм</p>
+      </button>
+
+    </main>
+  </div>}}
+</div>
